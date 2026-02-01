@@ -1,7 +1,8 @@
 {
- "name": "git-sample",
- "compatibility_date": "2026-02-01",
- "assets": {
-    "directory": "./dist"
- }
+  "name": "git-sample",
+  "compatibility_date": "2026-02-01",
+  "assets": {
+    "directory": "./", // เปลี่ยนจาก "./dist" เป็น "./" เพื่อบอกว่าไฟล์อยู่ที่นี่แหละ
+    "binding": "ASSETS"
+  }
 }
